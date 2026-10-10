@@ -1,0 +1,30 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Sesión de WhatsApp (da control del número vinculado)
+auth/
+auth_info*/
+session/
+
+# Base de datos (contiene mensajes de terceros)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/
+
+# Dependencias y compilado
+node_modules/
+dist/
+
+# Logs y pruebas
+*.log
+coverage/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
